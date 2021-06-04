@@ -1,5 +1,5 @@
 .App {
-  
+  border-radius: 20px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -19,9 +19,13 @@
 }
 
 .inputContainer > input {
+  display: flex;
+  flex-direction: column;
   padding: 10px;
+  border-radius: 10px;
 }
 
 button {
-  padding: 10px;
+  padding: 30px;
+  border-radius: 10px;
 } 
